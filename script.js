@@ -3,17 +3,35 @@ document.body.append(timer)
 
 
     timer.innerHTML="10"
-    setTimeout(()=>{timer.innerHTML="9"},1000)
-    setTimeout(()=>{timer.innerHTML="8"},2000)
-    setTimeout(()=>{timer.innerHTML="7"},3000)
-    setTimeout(()=>{timer.innerHTML="6"},4000)
-    setTimeout(()=>{timer.innerHTML="5"},5000)
-    setTimeout(()=>{timer.innerHTML="4"},6000)
-    setTimeout(()=>{timer.innerHTML="3"},7000)
-    setTimeout(()=>{timer.innerHTML="2"},8000)
-    setTimeout(()=>{timer.innerHTML="1"},9000)
-    setTimeout(()=>{timer.innerHTML="HAPPY INDEPENDENCE DAY"},10000)
+    setTimeout(()=>{timer.innerHTML="9";
+        setTimeout(()=>{timer.innerHTML="8";
+            setTimeout(()=>{timer.innerHTML="7";
+                setTimeout(()=>{timer.innerHTML="6";
+                    setTimeout(()=>{timer.innerHTML="5";
+                        setTimeout(()=>{timer.innerHTML="4";
+                            setTimeout(()=>{timer.innerHTML="3";
+                                setTimeout(()=>{timer.innerHTML="2";
+                                    setTimeout(()=>{timer.innerHTML="1";
+                                        setTimeout(()=>{timer.innerHTML="HAPPY INDEPENDENCE DAY"},1000)}
+                                    ,1000)}
+                                ,1000)}
+                            ,1000)}
+                        ,1000)}
+                    ,1000)}
+                ,1000)}
+            ,1000)}
+        ,1000)}
+    ,1000)
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 let img = document.createElement("img")
-setTimeout(()=>{img.setAttribute("src","./images/download.jpeg")},10000)
+setTimeout(()=>{img.setAttribute("src","./images/download.jpeg")},10100)
 document.body.append(img)
